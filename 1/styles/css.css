@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(146, 116, 116);
+    font-size: larger;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    border-width: 5px;
+    border-radius: 200px;
+    margin: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+aside{
+    background-color: rgb(167, 157, 157);
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(43, 43, 43);
+    position: relative;
+    top: -100px;
+}
+
+.center{
+    text-align: center;
+}
+
+main{
+    display: inline-block;
+    position: relative;
+    left: 500px
+}
+
+.margen{
+    margin: 20px;
+}
