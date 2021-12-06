@@ -8,9 +8,12 @@ body {
 img{
     border-width: 5px;
     border-radius: 200px;
+    align-items: center;
     margin: 20px;
     max-width: 200px;
     max-height: 200px;
+    position: relative;
+    left: 40px;
 }
 
 aside{
@@ -19,7 +22,7 @@ aside{
     font-family: 'Montserrat', sans-serif;
     color: rgb(43, 43, 43);
     position: relative;
-    top: -100px;
+    left: -400px;
 }
 
 .center{
@@ -29,9 +32,41 @@ aside{
 main{
     display: inline-block;
     position: relative;
-    left: 500px
+    left: 450px;
+    top: -400px;
 }
 
 .margen{
     margin: 20px;
+}
+
+.parra{
+    width: 300px;
+    margin: 20px;
+    text-align:justify;
+}
+
+.titulo{
+    color:rgb(197, 195, 195);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.subt{
+    color:rgb(197, 195, 195);
+}
+
+.txt{
+    display: inline;
+}
+
+a:hover{
+    color: rgb(43, 43, 43);
+    margin: 20px;
+    text-decoration: none;
+}
+
+.material-icons{
+    size: 30px;
+    margin: 10px;
 }
